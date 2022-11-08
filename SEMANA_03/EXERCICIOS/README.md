@@ -11,3 +11,6 @@ Além disso:
 A - Utilize a interface IDE 2.0 do Arduino para construcao do codigo
 B - Monte o respectivo projeto e faça o funcionar.
 C - Faça uma versão simulada no Wowki
+
+
+![image](https://user-images.githubusercontent.com/99209259/200461287-56c48006-d933-482d-bae7-8eb85170a553.png)
