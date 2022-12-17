@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOGO DA VELHA</title>
+    <link rel="stylesheet" href="./estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>JOGO DA VELHA</h1>
+    <table id="quadro">
+      <tr>
+        <td class="espaco-quadro" id="0" onclick="escolher(this)"></td>
+        <td class="espaco-quadro" id="1" onclick="escolher(this)"></td>
+        <td class="espaco-quadro" id="2" onclick="escolher(this)"></td>
+      </tr>
+      <tr>
+        <td class="espaco-quadro" id="3" onclick="escolher(this)"></td>
+        <td class="espaco-quadro" id="4" onclick="escolher(this)"></td>
+        <td class="espaco-quadro" id="5" onclick="escolher(this)"></td>
+      </tr>
+      <tr>
+        <td class="espaco-quadro" id="6" onclick="escolher(this)"></td>
+        <td class="espaco-quadro" id="7" onclick="escolher(this)"></td>
+        <td class="espaco-quadro" id="8" onclick="escolher(this)"></td>
+      </tr>
+    </table>
+    <div id="resultado"></div>
+    <div id="jogar-novamente">
+      <button onclick="mudarjogo(2)" id="jogar-novamente">PLAY AGAIN</button>
+    </div>
+    <script src="./jogodavelha.js"></script>
+  </body>
+</html>
